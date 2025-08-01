@@ -20,3 +20,14 @@ body {
     font-weight: 700;
 }
  
+.btn {
+	font-size: 15px;
+	border-radius: 90px;
+	background-color: var(--primary-color);
+	color: var(--color);
+    border-color: var(--primary-color);
+    &:hover {
+        background-color: transparent;
+        border-color: var(--primary-color);
+    }
+}
