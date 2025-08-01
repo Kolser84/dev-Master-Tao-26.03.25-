@@ -1,8 +1,14 @@
-///fonts///
-$font-primary: "Open Sans";
-$font-secondary:  "monospace";
-$font-size: 16px;
+:root {
+    --font-primary: "Open Sans";
+    --font-secondary:  "monospace";
+    --font-size: 16px;
 
-///colors///
-$primary-color: #222;
-$secondary-color: rgb(255, 255, 255);
+    --primary-color: #E58D35;
+    --secondary-color: #89C249;
+    --bg-color: #282b38;
+    --bg-color-accent: 363A4D;
+    --color: #ffff;
+}
+
+
+
