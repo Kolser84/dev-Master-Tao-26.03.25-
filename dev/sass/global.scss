@@ -36,8 +36,12 @@ body {
         padding: 13px 20px;
     }
 
-    .btn-lg {
-
+    &.btn-lg {
+        font-size: 16px;
+        padding: 19px 26px 19px 30px;
+        img {
+            margin-left: 48px;
+        }
     }
 
     &.btn-secondary {
