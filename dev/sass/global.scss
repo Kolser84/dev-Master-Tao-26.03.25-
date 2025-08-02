@@ -26,8 +26,24 @@ body {
 	background-color: var(--primary-color);
 	color: var(--color);
     border-color: var(--primary-color);
+    padding: 13px 25px;
     &:hover {
         background-color: transparent;
         border-color: var(--primary-color);
+    }
+
+    &.btn-sm {
+        padding: 13px 20px;
+    }
+
+    .btn-lg {
+
+    }
+
+    &.btn-secondary {
+        background-color: transparent;
+        &:hover {
+            background-color: var(--primary-color);
+        }
     }
 }
